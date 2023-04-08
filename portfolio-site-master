@@ -1,0 +1,69 @@
+<section class="image-gallery content regular-wrapper">
+          <div class="box-wrapper box1 hovereffect">
+            <div class="box-styling">
+            <a href="images/wallpaper/project_1.html">
+              <img src="images/portrait-square.jpg">
+              <div class="overlay">
+            <h2>Identity, Space Between Podcast</h2>
+            <p>description text</p> 
+          </div>
+          </a>
+        </div>  
+      </div>   
+         <div class="box-wrapper box2 hovereffect">
+            <div class="box-styling">
+              <a href="">
+                <img src="images/wallpaper.jpg">
+                <div class="overlay">
+            <h2>Full Moon Market video</h2>
+            <p>description</p>
+          </div>
+          </a>
+        </div>  
+         </div>        
+         <div class="box-wrapper box3 hovereffect">
+            <div class="box-styling">
+              <a href="">
+                <img src="images/wallpaper.jpg">
+                <div class="overlay">
+            <h2>Project 3</h2>
+            <p>description</p>
+          </div>
+          </a>
+        </div> 
+         </div>       
+        <div class="box-wrapper box4 hovereffect">
+            <div class="box-styling">
+              <a href="">
+                <img src="images/wallpaper.jpg">
+                <div class="overlay">
+            <h2>Project 4</h2>
+            <p>description</p>
+          </div>
+          </a>
+        </div> 
+        </div>         
+         <div class="box-wrapper box5 hovereffect">
+            <div class="box-styling">
+            <a href="">
+              <img src="images/wallpaper.jpg">
+              <div class="overlay">
+            <h2>Project 5</h2>
+            <p>description</p>
+          </div>
+          </a>
+          </div>
+        </div>          
+         <div class="box-wrapper box6 hovereffect">
+            <div class="box-styling">
+              <a href="">
+                <img src="images/wallpaper.jpg">
+                <div class="overlay">
+            <h2>Project 6</h2>
+            <p>description</p>
+          </div>
+          </a>
+          </div>
+        </div> 
+        </section>
+        
