@@ -10,6 +10,10 @@ body, html {
 .everything {
   margin: 0px 0px 0px 40px;
 }
+#fish {
+  width: auto;
+  padding: 25px;
+}
 .line1 {
   width: 250px;
 }
@@ -20,7 +24,7 @@ nav{
   width: 100%;
   top:0;
   z-index:10;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 600;
   text-transform: capitalize;
   background-color: rgb(170, 246, 255);
@@ -38,8 +42,8 @@ nav li {
   font-size: 1.7em;
 }
 nav li a {
-  color:rgb(6, 3, 86);
-  font-weight: 520;
+  color:rgb(2, 1, 34);
+  font-weight: 600;
   opacity: 0.9;
   text-decoration: none;
   transition: .3s;
@@ -50,3 +54,19 @@ nav li a:hover {
   text-decoration: none;
 }
 
+/* styling for links */
+a:link {
+  color:rgb(2, 1, 34);
+}
+a:visited {
+  color:rgb(9, 120, 160);
+}
+a:hover {
+  color: aquamarine;
+}
+
+
+.text1 {
+  color: black;
+text-align: center;
+}
