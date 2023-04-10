@@ -14,9 +14,20 @@ body, html {
   width: auto;
   padding: 25px;
 }
+/* lines */
 .line1 {
   width: 250px;
 }
+.line2 {
+  width: 250px;
+}
+.line3 {
+  width: 250px;
+}
+.line4 {
+  width: 250px;
+}
+/* end-lines */
 nav{
   display: inline-block;
   margin: auto;
@@ -27,7 +38,7 @@ nav{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 600;
   text-transform: capitalize;
-  background-color: rgb(170, 246, 255);
+  background-color: rgb(28, 32, 55);
   opacity: 75%;
 }
 nav ul {
@@ -42,7 +53,7 @@ nav li {
   font-size: 1.7em;
 }
 nav li a {
-  color:rgb(2, 1, 34);
+  color:rgb(239, 250, 252);
   font-weight: 600;
   opacity: 0.9;
   text-decoration: none;
@@ -56,17 +67,20 @@ nav li a:hover {
 
 /* styling for links */
 a:link {
-  color:rgb(2, 1, 34);
+  color:rgb(239, 250, 252);
 }
 a:visited {
-  color:rgb(9, 120, 160);
+  color:rgb(51, 108, 129);
 }
 a:hover {
-  color: aquamarine;
+  color: rgb(127, 246, 255);
 }
 
 
 .text1 {
-  color: black;
+  color: rgb(28, 32, 55);
 text-align: center;
+}
+.aw2 {
+  color: #28659a;
 }
