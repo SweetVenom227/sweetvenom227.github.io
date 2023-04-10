@@ -38,8 +38,8 @@ nav{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 600;
   text-transform: capitalize;
-  background-color: rgb(28, 32, 55);
-  opacity: 75%;
+  background-color: rgb(65, 76, 121);
+  opacity: 90%;
 }
 nav ul {
   padding:0;
@@ -60,7 +60,7 @@ nav li a {
   transition: .3s;
 }
 nav li a:hover {
-  color:#28659a;
+  color:#7bafe0;
   opacity: 1;
   text-decoration: none;
 }
@@ -70,7 +70,7 @@ a:link {
   color:rgb(239, 250, 252);
 }
 a:visited {
-  color:rgb(51, 108, 129);
+  color:rgb(25, 28, 53);
 }
 a:hover {
   color: rgb(127, 246, 255);
