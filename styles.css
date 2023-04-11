@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  background: url(assets/Sea-2.jpg) no-repeat center center fixed;
+  background: #cdecfb;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -60,7 +60,7 @@ nav li a {
   transition: .3s;
 }
 nav li a:hover {
-  color:#7bafe0;
+  color:#7bc2e0;
   opacity: 1;
   text-decoration: none;
 }
@@ -73,9 +73,12 @@ a:hover {
   color: rgb(127, 246, 255);
 }
 
-
+.icon {
+  width: 100;
+  padding: 30 0 0 670;
+}
 .text1 {
-  color: rgb(28, 32, 55);
+  color: rgb(65, 75, 126);
 text-align: center;
 }
 .aw2 {
