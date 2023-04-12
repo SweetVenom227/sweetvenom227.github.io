@@ -7,27 +7,74 @@ body, html {
   -moz-background-size: cover;
   -o-backround-size: cover;
 }
-.everything {
-  margin: 0px 0px 0px 40px;
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
-#fish {
-  width: auto;
-  padding: 25px;
+
+/* Style 9
+   ----------------------------- */
+   .nine h1 {
+    text-align:center; font-size:50px; text-transform:uppercase; color:#3b5e7d; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .nine h1 span {
+    margin-top: 5px;
+      font-size:15px; color:#383562; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .nine h1 span:after,.nine h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid rgb(67, 100, 133);
+      border-top: 1px solid rgb(67, 100, 133);
+      height: 5px;
+    background-color:#cdecfb;
+  }
+ /* end of style 9 */
+
+#container {
+  width: 960px;
+  margin: auto;
 }
-/* lines */
-.line1 {
-  width: 250px;
+
+/* 3 equal columns */
+.column {
+  float: left;
+  width: 33.33%;
 }
-.line2 {
-  width: 250px;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.line3 {
-  width: 250px;
-}
-.line4 {
-  width: 250px;
-}
-/* end-lines */
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} 
+
+/* start of nav */
 nav{
   display: inline-block;
   margin: auto;
@@ -64,6 +111,38 @@ nav li a:hover {
   opacity: 1;
   text-decoration: none;
 }
+/* end of nav */
+
+.icon {
+  width: 15%;
+  padding-bottom: 15px;
+}
+.page-title {
+  color: rgb(58, 70, 130);
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#fish {
+  width: auto;
+  padding: 25px;
+}
+
+/* lines */
+.line1 {
+  width: 250px;
+}
+.line2 {
+  width: 250px;
+}
+.line3 {
+  width: 250px;
+}
+.line4 {
+  width: 250px;
+}
+/* end-lines */
 
 /* styling for links */
 a:link {
@@ -72,15 +151,9 @@ a:link {
 a:hover {
   color: rgb(127, 246, 255);
 }
+/* end of link styling */
 
-.icon {
-  width: 100;
-  padding: 30 0 0 670;
-}
-.text1 {
-  color: rgb(65, 75, 126);
-text-align: center;
-}
 .aw2 {
   color: #28659a;
+  text-align: center;
 }
