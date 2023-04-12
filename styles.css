@@ -31,6 +31,15 @@ h1 em {
   font-weight: 600;
 }
 
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: rgb(46, 53, 53);
+}
 /* Style 8
    ----------------------------- */
    .eight h3 {
@@ -96,20 +105,20 @@ h1 em {
   margin: auto;
 }
 
-/* 3 equal columns */
+/* 3 equal columns not in use */
 .column {
   float: left;
   width: 33.33%;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns not in use */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other not in use */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -154,14 +163,6 @@ nav li a:hover {
   text-decoration: none;
 }
 /* end of nav */
-.hero {
-width: 960px;
-}
-
-img:hover {
-  -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2)); /* Chrome, Safari, Opera */
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
-}
 
 .icon {
   width: 15%;
@@ -174,25 +175,14 @@ img:hover {
   
 }
 
-#fish {
-  width: auto;
-  padding: 25px;
+.hero {
+width: 960px;
 }
 
-/* lines */
-.line1 {
-  width: 250px;
+img:hover {
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2)); /* Chrome, Safari, Opera */
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
 }
-.line2 {
-  width: 250px;
-}
-.line3 {
-  width: 250px;
-}
-.line4 {
-  width: 250px;
-}
-/* end-lines */
 
 /* styling for links */
 a:link {
@@ -202,3 +192,19 @@ a:hover {
   color: rgb(127, 246, 255);
 }
 /* end of link styling */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.art_img {
+  width: 80%;
+}
+
+.descript {
+  text-align: center;
+  padding-top: 20px;
+}
