@@ -214,3 +214,12 @@ a:hover {
   text-align: center;
   padding-top: 20px;
 }
+
+.face {
+  width: 300px;
+}
+
+.textwrap {
+  float: right;
+  margin: 10px;
+}
