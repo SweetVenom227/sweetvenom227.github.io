@@ -74,7 +74,7 @@ p {
   }
   .nine h1 span {
     margin-top: 5px;
-      font-size:17px; 
+      font-size:28px; 
       color:#383562; 
       word-spacing:1px; 
       font-weight:normal; 
@@ -109,6 +109,8 @@ p {
 .column {
   float: left;
   width: 33.33%;
+  padding: 10px;
+  
 }
 
 /* Clear floats after the columns not in use */
@@ -122,6 +124,7 @@ p {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  
   }
 } 
 
@@ -188,11 +191,14 @@ nav li a:hover {
   color: rgb(58, 70, 130);
   text-align: center;
   padding-top: 150px;
-  
+  height: 350px;
+  width: 100%;
 }
 
 .hero {
 width: 960px;
+height: 300px;
+padding: 20px 0 20px 0;
 }
 
 img:hover {
