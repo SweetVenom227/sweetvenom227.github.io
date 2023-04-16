@@ -1,0 +1,56 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Mias Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="styles.css">
+      
+    </head>
+
+<body>
+
+    <!--Navigation bar-->
+<div id="nav-placeholder"></div>
+<script>
+  $.get("nav.html", function(data){
+      $("#nav-placeholder").replaceWith(data);
+  });
+</script>
+<!--end of Navigation bar-->
+
+<div id="container">
+    <div class="top_spacer"></div>
+
+ <div class="row">
+    <div class="column">
+         <div class="box-wrapper box1 hovereffect">
+              <img class="art_img" src="assets/Fallen-Devil.jpg">
+         </div>  
+         <div class="box-wrapper box1 hovereffect">
+          <a href="artwork.html"><img class="art_img" src="assets/Fallen-Devil.jpg"></a>
+         </div>  
+    </div>
+
+    <div class="column">
+         <div class="box-wrapper box2 hovereffect">
+              <img class="art_img" src="assets/ACF.jpg">
+         </div>  
+         <div class="box-wrapper box2 hovereffect">
+          <img class="art_img" src="assets/ACF.jpg">
+         </div> 
+    </div> 
+
+    <div class="column">
+         <div class="box-wrapper box3 hovereffect">
+              <img class="art_img" src="assets/ACB.jpg">
+         </div> 
+         <div class="box-wrapper box3 hovereffect">
+          <img class="art_img" src="assets/ACB.jpg">
+         </div> 
+    </div>
+ </div>
+
+
+</body>
+</html>

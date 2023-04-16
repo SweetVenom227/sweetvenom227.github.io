@@ -208,6 +208,7 @@ a:hover {
 
 .art_img {
   width: 80%;
+  padding-bottom: 20px;
 }
 
 .descript {
@@ -222,4 +223,8 @@ a:hover {
 .textwrap {
   float: right;
   margin: 10px;
+}
+
+.top_spacer {
+  padding-top: 150px;
 }
