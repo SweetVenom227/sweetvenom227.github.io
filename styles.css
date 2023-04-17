@@ -37,7 +37,7 @@ h3 {
 
 p {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(46, 53, 53);
 }
 /* Style 8
@@ -46,7 +46,7 @@ p {
     text-align:center;
     color: #28659a;
     text-transform:capitalize;
-    font-size:15px; letter-spacing:1px;
+    font-size:28px; letter-spacing:1px;
     
     display: grid;
     grid-template-columns: .25fr auto .25fr;
