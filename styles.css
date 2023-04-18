@@ -40,6 +40,7 @@ p {
   font-size: 20px;
   color: rgb(94, 119, 138);
 }
+
 /* Style 8
    ----------------------------- */
    .eight h3 {
@@ -125,6 +126,42 @@ p {
   .column {
     width: 100%;
   }
+  ul{
+    width: 100vw;
+    font-size: 10px;
+  }
+.nine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.eight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.descript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
+  text-align: center;
+}
+.about_paragraph {
+  margin-left: 35;
+}
 } 
 
 /* start of nav */
