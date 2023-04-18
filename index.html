@@ -1,7 +1,6 @@
 <html>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <title>Mias Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="styles.css">
@@ -9,15 +8,28 @@
     </head>
 
 <body>
+  
+<nav>
+  <!-- start of an unordered list -->
+  <ul>
+    <!-- first link -->
+    <li>
+      <a href="#home" class="link">Home</a>
+    </li>
+    <li>
+      <a href="#artwork" class="link">Artwork</a>
+    </li>
+     <!-- second link -->
+     <li>
+      <a href="#about_me" class="link">About Me</a>
+    </li>
+     <!-- third link -->
+     <li>
+      <a href="#contact_me" class="link">Contact Me</a>
+    </li>
+  </ul>
+</nav>
 
- <!--Navigation bar-->
-<div id="nav-placeholder"></div>
-<script>
-  $.get("nav.html", function(data){
-      $("#nav-placeholder").replaceWith(data);
-  });
-</script>
-<!--end of Navigation bar-->
 
 <div id="container">
 
@@ -47,19 +59,32 @@
   <div class="row">
     <div class="column">
          <div class="box-wrapper box1 hovereffect">
+<<<<<<< HEAD
           <a href="artwork.html"><img class="art_img" src="assets/F-D.jpg"></a>
+=======
+              <img class="art_img" src="assets/Fallen-Devil.jpg">
+>>>>>>> parent of 810c0e7 (add page)
          </div>  
     </div>
 
     <div class="column">
          <div class="box-wrapper box2 hovereffect">
+<<<<<<< HEAD
           <a href="artwork.html"><img class="art_img" src="assets/DTD.jpg"></a>
          </div> 
+=======
+              <img class="art_img" src="assets/ACF.jpg">
+         </div>  
+>>>>>>> parent of 810c0e7 (add page)
     </div> 
 
     <div class="column">
          <div class="box-wrapper box3 hovereffect">
+<<<<<<< HEAD
           <a href="artwork.html"><img class="art_img" src="assets/ACF.jpg"></a>
+=======
+              <img class="art_img" src="assets/ACB.jpg">
+>>>>>>> parent of 810c0e7 (add page)
          </div> 
     </div>
   <!-- end of artwork columns -->
@@ -90,7 +115,6 @@
   </div>
  </div>  
 </div>
-
 <script>// When the user scrolls the page, execute myFunction
   window.onscroll = function() {myFunction()};
   

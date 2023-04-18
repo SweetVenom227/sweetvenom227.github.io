@@ -208,8 +208,11 @@ a:hover {
 
 .art_img {
   width: 80%;
+<<<<<<< HEAD
   padding-bottom: 20px;
   padding-left: 30px;
+=======
+>>>>>>> parent of 810c0e7 (add page)
 }
 
 .descript {
@@ -224,8 +227,4 @@ a:hover {
 .textwrap {
   float: right;
   margin: 10px;
-}
-
-.top_spacer {
-  padding-top: 150px;
 }
