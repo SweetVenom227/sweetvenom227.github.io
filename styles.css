@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  background: #cdecfb;
+  background: #bc6c1c;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,6 +39,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: rgb(94, 119, 138);
+  padding-left: 10vw;
 }
 
 /* Style 8
@@ -217,8 +218,7 @@ nav li a:hover {
 }
 
 .hero {
-width: 960px;
-height: 300px;
+width: 100vw;
 padding: 0px 0 20px 0;
 }
 
