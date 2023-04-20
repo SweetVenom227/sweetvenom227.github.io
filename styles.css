@@ -161,7 +161,7 @@ p {
 }
 .about_paragraph {
   text-align: center;
-  margin-left: auto;
+  margin-left: 10vw;
 }
 } 
 
@@ -265,4 +265,9 @@ a:hover {
 
 .top_spacer {
   padding-top: 150px;
+}
+
+.about_paragraph {
+  padding-left: 15vw;
+  text-align: left;
 }
