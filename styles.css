@@ -256,6 +256,7 @@ a:hover {
 
 .face {
   width: 300px;
+  padding-right: 5vw;
 }
 
 .textwrap {
@@ -269,5 +270,10 @@ a:hover {
 
 .about_paragraph {
   padding-left: 25vw;
+  padding-top: 5vw;
   text-align: center;
+}
+
+.rat {
+  width: 4vw;
 }
