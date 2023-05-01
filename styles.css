@@ -161,8 +161,8 @@ p {
 }
 .about_paragraph {
   text-align: center;
-  margin-left: 10vw;
 }
+
 } 
 
 /* start of nav */
@@ -269,7 +269,7 @@ a:hover {
 }
 
 .about_paragraph {
-  padding-left: 25vw;
+  padding-left: 10vw;
   padding-top: 5vw;
   text-align: center;
 }
