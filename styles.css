@@ -108,10 +108,8 @@ p {
 
 /* 3 equal columns not in use */
 .column {
-  float: left;
+  float: right;
   width: 33.33%;
-
-  
 }
 
 /* Clear floats after the columns not in use */
@@ -162,6 +160,10 @@ p {
 }
 .about_paragraph {
   text-align: center;
+}
+
+.rat {
+  width: 10vw;
 }
 
 } 
@@ -275,5 +277,5 @@ a:hover {
 }
 
 .rat {
-  width: 4vw;
+  width: 5vw;
 }
