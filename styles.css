@@ -158,6 +158,7 @@ p {
   flex-direction: column;
   width: 90vw;
   text-align: center;
+  padding-left: 5vw;
 }
 .about_paragraph {
   text-align: center;
@@ -269,7 +270,6 @@ a:hover {
 }
 
 .about_paragraph {
-  padding-left: 10vw;
   padding-top: 5vw;
   text-align: center;
 }
